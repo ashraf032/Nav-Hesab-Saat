@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>Document</title>
+</head>
+
+<style>
+  nav div {
+    background-color: rgba(31, 95, 95, 0.932);
+  }
+
+  nav div .active {
+    background-color: rgb(55, 55, 114);
+  }
+</style>
+
+ <body>  
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="nav collapse navbar-collapse  d-flex justify-content-center   p-0">
+        <ul class=" head d-flex p-0 justify-content-center  list-inline">
+          <li data-target="home" class="nav-item p-1 list-inline-item active d-inline-block" style="color: white;">Home
+          </li>
+          <li data-target="about" class="nav-item p-1 list-inline-item" style="color: white;">About</li>
+          <li data-target="settings" class="nav-item p-1 list-inline-item" style="color: white;">Settıngs</li>
+          <li data-target="contact" class="nav-item p-1 list-inline-item" style="color: white;">Contact</li>
+        </ul>
+    </nav>
+  <div class="row texts">
+    <div data-content="home">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed in vero deserunt? Quidem repellat amet veritatis mollitia provident error voluptate.
+      </p>
+    </div>
+    <div data-content="about" class="d-none">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem enim, earum asperiores minus mollitia tempora animi iure quod doloribus nostrum! Asperiores culpa, tenetur ab ipsa quod optio dolorem quidem consequuntur autem quia, rerum distinctio, aspernatur rem! Repudiandae, in aliquam fugiat quo aliquid mollitia officiis non, velit vitae, temporibus dolorum fuga!
+      </p>
+    </div>
+    <div data-content="settings" class="d-none">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, consectetur!
+      </p>
+    </div>
+    <div data-content="contact" class="d-none">
+      <p>
+        Contact me 04839483989483983983
+      </p>
+    </div>
+  </div>
+  </div> 
+  <script src="/main.js"></script>
+</body>
+
+</html>
